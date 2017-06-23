@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img,
+input {
+  border: none;
+}
+.main .map {
+  background: url(../img/03_03.png) no-repeat;
+  height: 730px;
+  width: 100%;
+}
+.main .letter {
+  background: url(../img/1200.png) no-repeat;
+  height: 968px;
+  width: 62%;
+  margin: 0 auto;
+  margin-top: -260px;
+}

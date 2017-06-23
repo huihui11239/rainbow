@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img,
+input {
+  border: none;
+}
+.header {
+  width: 100vw;
+  position: relative;
+}
+.header .head-top {
+  width: 62%;
+  margin: 0 auto;
+  height: 91px;
+}
+.header .head-top .search {
+  width: 25%;
+  position: absolute;
+  right: 11%;
+  top: 15px;
+}
+.header .head-top .search input {
+  width: 15%;
+  height: 13px;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  line-height: 13px;
+  padding-left: 4%;
+  color: #a0a0a0;
+  font-size: 12px;
+}
+.header .head-top .search a {
+  color: #969696;
+  font-size: 13px;
+  font-weight: "宋体";
+}
+.header .head-top .search span {
+  padding: 0 7px;
+  color: #666666;
+}
+.header .head-top ul {
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 70px;
+}
+.header .head-top ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.header .head-top ul li a {
+  display: inline-block;
+  color: #676767;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.header .head-center {
+  width: 100%;
+  height: 4px;
+  background: #ebc313;
+}
+.header .head-bottom {
+  width: 100%;
+  height: 25px;
+  background: #015a9e;
+}
+.header .head-bottom ul {
+  width: 56%;
+  position: absolute;
+  right: 19%;
+}
+.header .head-bottom ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.header .head-bottom ul li a {
+  display: inline-block;
+  line-height: 25px;
+  color: #cbcbc9;
+  font-size: 13px;
+}
+.header .side-img {
+  width: 6%;
+  height: 120px;
+  position: absolute;
+  left: 18%;
+  top: 0;
+}
+.header-other {
+  display: none;
+  height: 88px;
+  line-height: 88px;
+  background: #015a9e;
+  position: relative;
+}
+.header-other img {
+  float: left;
+}
+.header-other .one-pic {
+  position: absolute;
+  left: 3%;
+  top: 24px;
+}
+.header-other .two-pic {
+  position: absolute;
+  left: 45%;
+  top: 10px;
+}
+.header-other .three-pic {
+  position: absolute;
+  right: 3%;
+  top: 24px;
+}
+.footer {
+  border-top: 1px solid #575757;
+  border-bottom: 1px solid #575757;
+}
+.footer .footer-top {
+  height: 47px;
+  width: 100%;
+  border-bottom: 1px solid #0767b1;
+  background: #055697;
+}
+.footer .footer-top .top-inner {
+  width: 62%;
+  margin: 0 auto;
+}
+.footer .footer-top .top-inner .ul-top {
+  padding-left: 10%;
+}
+.footer .footer-top .top-inner .ul-top li {
+  float: left;
+}
+.footer .footer-top .top-inner .ul-top li a {
+  color: #fefefe;
+  display: block;
+  line-height: 47px;
+  padding-right: 3%;
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+.footer .footer-top .top-inner .ul-top li .li-first {
+  padding-right: 7%;
+  font-family: "微软雅黑";
+  font-size: 21px;
+}
+.footer .footer-bottom {
+  height: 398px;
+  width: 100%;
+  background: url(../img/02.png) repeat;
+}
+.footer .footer-bottom .bottom-inner {
+  width: 62%;
+  margin: 0 auto;
+}
+.footer .footer-bottom .bottom-inner .bottom-top {
+  height: 308px;
+  border-bottom: 1px solid #051a2b;
+}
+.footer .footer-bottom .bottom-inner .bottom-top .ul-float {
+  padding-top: 50px;
+  width: 14.7%;
+  text-align: center;
+  float: left;
+}
+.footer .footer-bottom .bottom-inner .bottom-top .ul-float li {
+  color: #c5dff6;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  line-height: 28px;
+}
+.footer .footer-bottom .bottom-inner .bottom-top .ul-float li a {
+  color: #5c7c93;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.footer .footer-bottom .bottom-inner .bottom-top .ul-left {
+  margin-left: 6%;
+}
+.footer .footer-bottom .bottom-inner .bottom-top .ul-right {
+  margin-right: 5%;
+}
+.footer .footer-bottom .bottom-inner .bottom-bot {
+  height: 88px;
+  border-top: 1px solid #2c4559;
+  text-align: center;
+}
+.footer .footer-bottom .bottom-inner .bottom-bot p {
+  line-height: 20px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #b5bcc4;
+}
+.footer .footer-bottom .bottom-inner .bottom-bot .company {
+  padding-top: 24px;
+}
+.footer-other {
+  display: none;
+  height: 104px;
+  background: #0159a0;
+  text-align: center;
+  color: #b8c9db;
+  line-height: 36px;
+  font-family: "微软雅黑";
+}
+.footer-other h2 {
+  font-size: 21px;
+  padding-top: 18px;
+  font-weight: normal;
+}
+.footer-other p {
+  font-size: 21px;
+}

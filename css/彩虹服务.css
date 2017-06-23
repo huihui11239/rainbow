@@ -1,0 +1,94 @@
+
+*{margin:0;padding:0;}
+ul{list-style: none}
+a{text-decoration: none;}
+.clear{clear: both}
+/*移动端-----------------------------------------*/
+.mobile-header{position: fixed;left:0;top:0;background:#015a9e;height:88px;width:100vw;text-align: center;display: none;z-index: 1}
+.mobile-header p{width:125px;font:22px/88px "微软雅黑";color:#fff;float: left}
+.mobile-header .img1{width:68px;height:68px;position: absolute;left:0;top:0;right:0;bottom:0;margin:auto;border-radius: 50%}
+.mobile-header .img2{float:right;padding:25px 25px 0 0;}
+.mobile-section{padding:115px 3% 0 3%;display: none}
+.mobile-section .li_top{height:54px;background:#015a9e;padding:0 24px;}
+.mobile-section .li_top h4{font:26px/54px "宋体";color:#fff;float:left;}
+.mobile-section .li_top p{font:19px/54px "Arial Regular";color:#fff;float:left;padding-left:10px;}
+.mobile-section .li_top a{float:right;margin-top:20px;}
+.mobile-section .li1{background:#fff;height:340px;padding:0 2.5%;margin-top:16px;position: relative}
+.mobile-section .li1 ._img{font:24px/85px "微软雅黑";color:#02589d;border-bottom:1px double #d3d3d3;float:left;}
+.mobile-section .li1 ._txt{float:left;width:75%;padding-left:3%;}
+.mobile-section .li1 h4{font:24px/85px "微软雅黑";color:#02589d;border-bottom:1px dashed #d3d3d3}
+.mobile-section .li1 p{font:18px/35px "微软雅黑";color:#989898;padding-top:20px;text-indent: 2em;}
+.mobile-section .li1 span{font:18px/30px "宋体";color:#407aac;position: absolute;right:15px;bottom:15px;}
+.mobile-section .li2{height:286px;border: 1px solid #fff;margin-top:16px;}
+.mobile-section .li2 img{width:100%;height:100%;margin-left:0;}
+.mobile-section .li3{height:58px;padding:0 3%;background:#015a9e ;}
+.mobile-section .li3 h4{font:21px/58px "微软雅黑";color:#fff;float:left;}
+.mobile-section .li3 a{font:18px/58px "微软雅黑";color:#fff;float:right;display: block}
+.mobile-section .li4{height:80px;padding-top:30px;}
+
+.mobile-section .li4 a img{padding:13px 20px 0 7%;float:left; }
+.mobile-section .li4 a{height:80px;display: block;background:#015a9e;width:46%; }
+.mobile-section .li4 a h3{font:20px/35px "宋体";color:#fff;padding-top:15px;}
+.mobile-section .li4 a p{font:14px/20px "arial Regular";color:#fff;}
+
+.mobile-section .li4 .a1{float:left}
+.mobile-section .li4 .a2{float:right}
+.mobile-section .li5{height:64px;text-align: center;padding-top:20px;padding-bottom:100px;}
+.mobile-section .li5 a{display:block;font:20px/64px "微软雅黑";color:#0259a0}
+.mobile-section .li5 a img{vertical-align:middle;margin:-5px 10px 0 0}
+.mobile-bot{display:none;height:80px;width:100%;background:#015a9e;text-align: center;color:#fff;font:20px/35px "微软雅黑";padding-top:20px;position: fixed;bottom:0;left:0;z-index: 1}
+
+/*PC端-----------------------------------------*/
+.motto{width:100%;text-align: center;padding-top:70px;}
+.motto h1{font:36px/20px "微软雅黑";color:#185ea6;}
+.motto p{font:20px/20px "Arial Regular";color:#335c7e;padding-top:20px;}
+.bg{background: url("../images/彩虹服务_02.png") no-repeat 0 0;background-size:100% auto}
+.section{padding:9px 1%;width:1150px;margin:150px auto 0 auto;border: 1px solid #bababa;background:#fff;}
+.section .section-left{width:209px;float: left;}
+.section .section-left ul{width:185px;}
+.section .section-left li{margin-bottom:21px;text-align: center}
+.section .section-left li a{color:#666;font:18px/31px "微软雅黑"}
+.section .section-left .li1{height:39px;}
+.section .section-left .li1 a{color:#01599e;background: url("../images/走进彩虹_03.jpg") no-repeat;height:39px;display: inline-block;font:24px/39px "微软雅黑";width:185px;}
+.section .section-left .li2 a{color:#fff;height:31px;display: inline-block;font:18px/31px "微软雅黑";width:185px;background:#4277ad; }
+.section .section-left .li7 a,section .section-left .li8 a{ }
+.section .section-left .li7 a{background: url("../images/走进彩虹_07.jpg") 18px 11px no-repeat #4277ad;color:#fff;height:48px;display: inline-block;width:115px;text-align: left;padding:10px 0 0 70px}
+.section .section-left .li8 a{background: url("../images/走进彩虹_11.jpg") 18px 11px no-repeat #4277ad;color:#fff;height:48px;display: inline-block;width:115px;text-align: left;padding:10px 0 0 70px}
+.section .section-left .li7 a .p1,.section .section-left .li8 a .p1{font:18px/22px "微软雅黑"}
+.section .section-left .li7 a .p2,.section .section-left .li8 a .p2{font:10px/14px "arial Regular"}
+.section .section-right{width:79%;padding-left:2%;float:left;border-left:1px solid #bababa;}
+.section .section-right .right-top{border-bottom: 1px solid #999;}
+.section .section-right .right-top p{font:14px/38px "微软雅黑";color:#666;}
+.search{float: right;height:35px;padding-top:5px;font-size: 0}
+.search input{float:left;border: none;background: url("../images/产品-二级页面_03.png");padding:0 15px;font:14px/29px "微软雅黑"}
+.search input,img{margin-left:10px;}
+.search .img1{float:left;padding-top:5px;}
+.section .section-right ul li{height:174px;padding:12px 18px 12px 102px;position: relative;margin-bottom:70px;}
+.section .section-right ul li img{position: absolute;left:18px;top:0;}
+.section .section-right ul li h4{font:bold 16px/50px "微软雅黑";color:#4277ad}
+.section .section-right ul li .p1{font:14px/35px "微软雅黑";color:#999;}
+.section .section-right ul li .p2{font:14px/22px "宋体";color:#999;text-indent: 2em;}
+.section .section-right ul li a{position: absolute;right:18px;bottom:12px;font:14px/26px "微软雅黑";color:#4277ad}
+.section .section-right ul .li1{background:#efefef;}
+.section .section-right .right-fot{text-align: center;border-top:1px solid #bababa;padding-top:37px;height:64px;}
+.section .section-right .right-fot p{font:14px/20px "微软雅黑";color:#666}
+.section .section-right .right-fot p a{color:#666}
+.section .section-right .right-fot p span{color:#4277ad }
+@media screen and (max-width:1200px){
+  .mobile-header{display: block}
+  .mobile-bot{display: block}
+  .header{display: none}
+  .footer{display: none}
+  .section{padding:9px 1%;width:96%;margin:100px auto;border: 1px solid #bababa;background:#fff;}
+  .section .section-right{width:70%;padding-left:2%;float:left;border-left:1px solid #bababa;}
+  .motto{width:100%;text-align: center;padding-top:70px;}
+  .motto h1{font:29px/42px "微软雅黑";color:#185ea6;}
+  .motto p{font:17px/31px "Arial";color:#335c7e;padding-top:0;}
+  .bg{margin-top:88px;}
+}
+@media screen and (max-width:800px){
+  .section{display: none}
+  body{background-color:#efefef;}
+  .mobile-section{display: block}
+
+}

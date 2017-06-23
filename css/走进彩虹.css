@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+ul{list-style: none}
+a{text-decoration: none;}
+.clear{clear: both}
+.motto{width:100%;text-align: center;padding-top:70px;}
+.motto h1{font:36px/20px "微软雅黑";color:#185ea6;}
+.motto p{font:20px/20px "Arial Regular";color:#335c7e;padding-top:20px;}
+.bg{background: url("../images/走进彩虹_01.png") no-repeat 0 0;}
+.section{padding:9px 1%;width:1160px;margin:150px auto 0 auto;border: 1px solid #bababa;background:#fff;}
+.section .section-left{width:209px;height:586px;border-right:1px solid #bababa;float: left;}
+.section .section-left ul{width:185px;}
+.section .section-left li{margin-bottom:21px;text-align: center}
+.section .section-left li a{color:#666;font:18px/31px "微软雅黑"}
+.section .section-left .li1{height:39px;}
+.section .section-left .li1 a{color:#01599e;background: url("../images/走进彩虹_03.jpg") no-repeat;height:39px;display: inline-block;font:24px/39px "微软雅黑";width:185px;}
+.section .section-left .li2 a{color:#fff;height:31px;display: inline-block;font:18px/31px "微软雅黑";width:185px;background:#4277ad; }
+.section .section-left .li7 a,section .section-left .li8 a{ }
+.section .section-left .li7 a{background: url("../images/走进彩虹_07.jpg") 18px 11px no-repeat #4277ad;color:#fff;height:48px;display: inline-block;width:115px;text-align: left;padding:10px 0 0 70px}
+.section .section-left .li8 a{background: url("../images/走进彩虹_11.jpg") 18px 11px no-repeat #4277ad;color:#fff;height:48px;display: inline-block;width:115px;text-align: left;padding:10px 0 0 70px}
+.section .section-left .li7 a .p1,.section .section-left .li8 a .p1{font:18px/22px "微软雅黑"}
+.section .section-left .li7 a .p2,.section .section-left .li8 a .p2{font:10px/14px "arial Regular"}
+.section .section-right{width:79%;padding-left:2%;float:left;}
+.section .section-right .right-top{border-bottom: 1px solid #999;margin-bottom:9px;}
+.section .section-right .right-top p{font:14px/38px "微软雅黑";color:#666;}
+.section .section-right .inner{padding-top:24px;border-top:1px solid #999}
+.section .section-right .inner h2{font:bold 18px/20px "微软雅黑";color:#666}
+.section .section-right .inner>p{ font:14px/28px "Arial Narrow";color:#666}
+.section .section-right .inner .img{font-size:0;padding-top:24px;}
+.section .section-right .inner .img .img2{margin-left:11px;}
+.section .section-right .inner .txt{padding-top:18px;}
+.section .section-right .inner .txt p{font:14px/28px "微软雅黑";color:#666;padding-bottom:18px;text-indent: 2em}
+.section .section-right .right-fot .fot-left{width:520px;float:left;}
+.section .section-right .right-fot .fot-left h2{font:bold 18px/20px "微软雅黑";color:#666}
+.section .section-right .right-fot .fot-left p{font:14px/28px "Arial Narrow";color:#666}
+.fot-left .a1{display: inline-block;padding:0 40px;font:16px/28px "微软雅黑";color:#fff;background:#4277ad}
+.fot-left .a2{display: inline-block;padding:0 40px;font:16px/28px "微软雅黑";color:#fff;background:#595959}
+.fot-left .txt{border-right:2px solid #a6a6a6;padding-right:25px;}
+.fot-left .txt .txt1{width:442px;background:#ececec;padding:19px 25px;font:14px/28px "微软雅黑";color:#666;margin-top:25px;text-indent: 2em}
+.fot-left .txt .txt1 .p1{padding-bottom:20px;}
+.fot-left .txt .txt2{text-indent: 2em;padding-top:20px;}
+.fot-right{padding-left:25px;float:left;}

@@ -1,0 +1,243 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			ul li{
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+			}
+			.bg{
+				background: url(../img/彩虹服务_02.png);
+				height: 800px;
+			}
+			.bg .tet{
+				position: absolute;
+				left: 40%;
+				top: 25%;
+				text-align: center;
+			}
+			.bg .tet h2{
+				font-size: 36px;
+				color:#185ea6; 
+				font-weight: bolder; 
+				font-family: '微软雅黑';
+			}
+			.bg .tet p{
+				font-size: 20px; 
+				color: #9ab6cd; 
+				font-family: arial;
+			}
+			.main{
+				width: 100vw;
+				margin-top: -475px;
+				}
+			.main_inner{
+				width: 1200px;
+				background: #fff;
+				height: 1004px;
+				border: 1px solid #999;
+				margin: 0 auto;
+			}
+			.left-nav{
+				float: left;
+				margin:10px 0 0 15px;
+			}
+			.main_inner .left-nav h3{
+				background: url(../img/彩虹服务_03.png);
+				text-align: center;
+				font-size: 24px;
+				color:#185ea6;
+			}
+			.main_inner .left-nav li{
+				margin-bottom: 34px;
+			}
+			.main_inner .left-nav li img{
+				padding: 0 12px 0 37px;
+			}
+			.main_inner .left-nav .ye{
+				margin-top: 12px;
+				width: 185px;
+				height: 31px;
+				background: #4277ad;
+				margin-bottom: 207px;
+			}
+			.main_inner .left-nav .gong{
+				color:#fff;
+				line-height: 31px;
+				text-align: center;
+			}
+			.main_inner .left-nav li a{
+				color:#666;
+			}
+			.main_inner .left-nav .ye ul{
+				margin-top: 20px;
+				margin-left: 50px;
+				position: relative;
+			}
+			.main_inner .left-nav .ye ul:after{
+				content: "";
+				width: 185px;
+				height: 1px;
+				background: #8198a9;
+				position: absolute;
+				left: -43px;
+			}
+			.main_inner .left-nav .ye ul li{
+				margin-bottom: 16px;
+				color:#a7a7a7;
+			}
+			.box{
+				width: 185px;
+				height: 58px;
+				background: #4277ad;
+				margin-bottom: 10px;
+				color: #fff;
+			}
+			.box img{
+				float: left;
+				margin: 11px 13px 11px 18px;
+			}
+			.txt{
+				padding-top: 14px;
+			}
+			.txt h4{
+				font-size: 16px;
+			}
+			.txt p{
+				font-size:10px ;
+			}
+			.x{
+				width: 1px;
+				height: 972px;
+				background: #bababa;
+				margin: 9px 24px 0 25px;
+				float: left;
+			}
+			.message{
+				float: left;
+				width: 940px;
+			}
+			.right_top p{
+				margin-top: 25px;
+				font-size: 14px; 
+				color: #666;
+				position: relative;
+			}
+			.line{
+				width: 915px;
+				height: 1px;
+				background: #d2d2d2;
+				margin-top: 16px;
+			}
+			.right_top input{
+				background: url(../img/产品-二级页面_03.png);
+				border:0px;
+				font-size: 14px;
+				margin-top: 11px;
+				height: 30px;
+				width: 215px;
+				color:#bcbcbc;
+				padding-left: 15px;
+				clear: both;
+			}
+			.right_top a{
+				float: right;
+				margin-top: 11px;
+
+			}
+			.right_top a img{
+				margin-left:10px ;
+			}
+			.classification{
+				margin-top: 30px;
+			}
+			.classification h3{
+				font-size: 18px;
+				color:#4277ad
+			}
+			.classification p{
+				font-size: 12px;
+				font-family: arial;
+				color:#eac413;
+				margin-top: 0;
+			}
+			.right_top ul{
+				margin-top: 11px;
+			}
+			.right_top ul li{
+				float: left;
+				padding: 8px 32px;
+				background: #ededed;
+				margin-left: 1px;
+				color: #c3c2c2;
+				font-size: 14px;
+			}
+			.right_top ul .one{
+				background: #4277ad;
+				color: #fff;
+			}
+			.right_bottom ul{
+				margin-top: 24px;
+				float: left;
+			}
+			.right_bottom ul li{
+				float: left;
+				width: 433px;
+				height: 176px;
+				position: relative;
+			}
+			.color{
+				background: #f1f1f1;
+			}
+			.right_bottom ul li img{
+				float: left;
+				margin: 24px 16px 0 25px;
+				width: 85px;
+				height: 126px;
+			}
+			.right_bottom ul li h4{
+				font-size: 18px;
+				color:#4277ad;
+				margin-top: 24px;
+			}
+			.right_bottom ul li p{
+				font-size: 14px;
+				color:#999;
+				margin-right:25px;
+				line-height: 28px;
+			}
+			.btn{
+				position: absolute;
+				right: 20px;
+				bottom: 20px;
+			}
+			.btn a{
+				padding: 3px 10px;
+				background: #eac413;
+				color:#fff;
+			}
+			.x1{
+				width: 915px;
+				height: 1px;
+				float: left;
+				background: #d2d2d2;
+				margin-top: 10px;
+			}
+			.f{
+				float: right;
+				margin-right: 20px;
+			}
+			.right_foot{
+				float: left;
+				color:#7a7a7a;
+				margin-top:25px ;
+				margin-left: 257px;
+			}
+			.right_foot a{
+				color:#7a7a7a;
+			}
+			.right_foot span{
+				color:#4f80b2;
+			}
